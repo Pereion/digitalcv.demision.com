@@ -1,0 +1,102 @@
+@media screen and (max-width: 850px) and (min-width: 551px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    .title {
+        top: 20%;
+    }
+    
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 155px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 90px;
+    }
+
+    .desc-1 {
+        width: 65px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    #certificate ul {
+        padding-left: 0;
+    }
+
+    .hr {
+        margin: 8px 65px
+    }
+
+    .cert-2 {
+        width: 40%;
+    }
+
+    .present {
+        left: 160px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #container-general {
+        width: 50%;
+        padding-left: 50px;
+        grid-template-columns: 325px;
+    }
+
+    .skills {
+        display: flex;
+    }
+
+    #container-general2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 15px;
+    }
+
+    #container-general {
+        width: 45%;
+    }
+
+}
